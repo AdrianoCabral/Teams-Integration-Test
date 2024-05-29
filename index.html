@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embed Microsoft Teams Meeting</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        #meetingFrame {
+            width: 80%;
+            height: 80vh;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Join Microsoft Teams Meeting</h1>
+    <iframe id="meetingFrame" src="" allow="camera; microphone; fullscreen"></iframe>
+
+    <script src="https://statics.teams.cdn.office.net/sdk/v1.8.0/js/MicrosoftTeams.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
